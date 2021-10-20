@@ -1,0 +1,29 @@
+.confirm-dialog {
+  width: 40vw;
+  height: 20vh;
+}
+
+.confirm-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.confirm-dialog-question {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.confirm-dialog-button-group {
+  display: flex;
+  justify-content: center;
+  margin: 1rem -1rem -1rem;
+}
+
+.confirm-dialog-button {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 0 1rem;
+}
